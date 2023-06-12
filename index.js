@@ -35,7 +35,7 @@ async function generateLogo() {
     const svgString = `
   <svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}">
     ${shape.render()}
-    <text x="150" y="112" text-anchor="middle" fill="${textColor}" font-size="16">${text}</text>
+    <text x="150" y="112" text-anchor="middle" fill="${textColor}" font-size="35">${text}</text>
   </svg>
   `;
 
