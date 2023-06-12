@@ -1,11 +1,10 @@
 # Logo Generator
 
 A command-line application for generating simple logos. This project is part of the UCI Coding Bootcamp Challenge 10.
- 
 
 ## Description
 
-As a freelance web developer, you often need a simple logo for your projects. With the Logo Generator, you can easily create custom logos without relying on a graphic designer. The application allows you to choose the text, text color, and shape of the logo, and generates an SVG file that you can use for your projects.
+As a freelance web developer, you often need a simple logo for your projects. With the Logo Generator, you can easily create custom logos without relying on a graphic designer. The application allows you to choose the text, text color, and shape of the logo and generates an SVG file that you can use for your projects.
 
 ## Technologies Used
 
@@ -42,6 +41,12 @@ The following technologies were used in the development of this application:
 8. You can find the generated SVG file in the `examples/` folder.
 9. Open the `logo.svg` file in a browser to view the generated logo.
 
+## Walkthrough Video
+
+For a detailed walkthrough of how to run the program, you can watch the following video:
+
+[Logo Generator Walkthrough Video](https://drive.google.com/file/d/1M68rt1BxYNZD0b0ag5Bnhwu8CdgoxbeC/view)
+
 ## Contributions
 
 Contributions to this project are welcome. If you would like to contribute, please follow these steps:
@@ -55,4 +60,3 @@ Contributions to this project are welcome. If you would like to contribute, plea
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
