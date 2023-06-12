@@ -1,6 +1,7 @@
 # Logo Generator
 
-A command-line application for generating simple logos.
+A command-line application for generating simple logos. This project is part of the UCI Coding Bootcamp Challenge 10.
+ 
 
 ## Description
 
