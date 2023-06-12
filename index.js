@@ -2,6 +2,9 @@ const { promptUser } = require('./lib/input');
 const { writeSvgFile } = require('./lib/fileWriter');
 const { Triangle, Circle, Square } = require('./lib/shapes');
 
+const svgWidth = 300;
+const svgHeight = 200;
+
 async function generateLogo() {
     const userInput = await promptUser();
 
@@ -29,13 +32,13 @@ async function generateLogo() {
 
     shape.setColor(shapeColor);
 
-    // Generate the SVG string
     const svgString = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
-      ${shape.render()}
-      <text x="150" y="120" text-anchor="middle" fill="${textColor}">${text}</text>
-    </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="${svgWidth}" height="${svgHeight}">
+    ${shape.render()}
+    <text x="150" y="112" text-anchor="middle" fill="${textColor}" font-size="16">${text}</text>
+  </svg>
   `;
+
 
     // Write the SVG string to a file
     writeSvgFile(svgString);
